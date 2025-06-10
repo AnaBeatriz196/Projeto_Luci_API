@@ -4,7 +4,7 @@ import './Header.css';
 function Header() {
   return (
     <header className="header">
-      <h1>Meu Aplicativo React</h1>
+      <h1>Gestão de Tarefas</h1>
     </header>
   );
 }
