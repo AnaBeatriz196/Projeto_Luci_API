@@ -1,9 +1,7 @@
 import React, { useState, useContext } from 'react';
-import { AuthContext } from '../../Components/Context/AuthContext';
 import './Register.css';
 
 function Register() {
-    const { register } = useContext(AuthContext);
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
@@ -14,7 +12,7 @@ function Register() {
             alert('As senhas não coincidem!');
             return;
         }
-        register(username, password);
+        reagister(username, password);
     };
 
     return (

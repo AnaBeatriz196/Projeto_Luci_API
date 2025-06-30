@@ -1,10 +1,8 @@
 import React, { useState, useContext } from 'react';
-import { AuthContext } from '../../Components/Context/AuthContext';
 import { Link } from 'react-router-dom';
 import './Login.css';
 
 function Login() {
-    const { login } = useContext(AuthContext);
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
 
