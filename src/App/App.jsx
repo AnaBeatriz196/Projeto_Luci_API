@@ -19,7 +19,6 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <AuthProvider>
         <div className="app">
           <Header />
           <div className="main-content">
@@ -34,26 +33,20 @@ function App() {
                 <Route
                   path="/dashboard"
                   element={
-                    <PrivateRoute>
                       <Dashboard />
-                    </PrivateRoute>
                   }
                 />
                 <Route
                   path="/items"
                   element={
-                    <PrivateRoute>
                       <Tasks />
-                    </PrivateRoute>
                   }
                 />
                 {/**/}
                 <Route
                   path="/item/:id"
                   element={
-                    <PrivateRoute>
                       <TaskDetail />
-                    </PrivateRoute>
                   }
                 />
               </Routes>
@@ -61,7 +54,6 @@ function App() {
           </div>
           <Footer />
         </div>
-      </AuthProvider>
     </Router>
   );
 }
