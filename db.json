@@ -1,0 +1,16 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Estudar React",
+      "description": "Aprender sobre hooks e roteamento",
+      "status": "pendente"
+    },
+    {
+      "id": 2,
+      "title": "Ler documentação do JSON Server",
+      "description": "Entender como funciona o mock de API",
+      "status": "em andamento"
+    }
+  ]
+}

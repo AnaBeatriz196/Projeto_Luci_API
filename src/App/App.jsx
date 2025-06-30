@@ -11,11 +11,8 @@ import Contact from '../Pages/Contact/Contact';
 import Login from '../Pages/Login/Login';
 import Register from '../Pages/Register/Register';
 import Dashboard from '../Pages/Dashboard/Dashboard';
-import PrivateRoute from '../PrivateRoutes/PrivateRoutes';
 import Tasks from '../Pages/Tasks/Tasks';
 import TaskDetail from '../Pages/TaskDetail/TaskDetail';
-
-import { AuthProvider } from '../Components/Context/AuthContext';
 
 import './App.css';
 
